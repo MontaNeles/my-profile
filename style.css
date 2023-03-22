@@ -1,0 +1,109 @@
+/*Colours and fonts*/
+
+body{
+	background-color: rgb(179,205,224);
+	color: rgb(0,91,150); /*colour of the text*/
+	font-family: Courier, monospace;
+}
+
+h2,h3,a,b {		/*group selector: applies the code to every mentioned part*/
+	color: rgb(209,17,65);
+	font-weight: lighter;
+}
+
+h1{
+	color: rgb(180,9,9);
+	font-weight: bold;
+	font-size: 60px;
+}
+
+h3{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+
+a {
+	text-decoration: none; /*removes the line for links*/
+}
+
+
+a:hover {
+	color: black; /*changes colour of link when the mouse is on top of it*/
+}
+
+
+#fotoprefil { /*to select an id use # */
+	width: 140px;
+}
+
+.imgsc { /*to select a class use . */
+	width: 100px;
+	border-radius: 50%; /*changes shape of img into a circle*/
+}
+
+
+.main_div {
+	width: 1000px;
+	margin: 40px auto;
+}
+
+
+.other-divs {
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgb(0,0,0, 0.1);
+	border-radius: 5px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.img-football {
+	border-radius: 50px;
+	padding: 15px 20px;
+	width: 100px;
+}
+
+.button {
+	background-color: rgb(59,89,152);
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.button:hover {
+	background-color: white;
+	color: rgb(59,89,152);
+}
+
+/*Alters the style of list + removes bulletpoints*/
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+i, .list-inline i {
+	font-size: 50px;
+	color: rgb (230,230,230);
+}
+
+#div1 p {
+	margin-bottom: 40px;
+}
+
+@media (max-width: 960px) {
+	.main_div {
+		width: 700px;
+	}
+}
+
+
+
